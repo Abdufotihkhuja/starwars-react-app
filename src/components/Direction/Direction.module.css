@@ -1,0 +1,17 @@
+.Direction {
+    max-width: 1200px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0 auto 20px auto;
+}
+.Direction a {
+    margin-right: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 12px;
+    font-size: 24px;
+    display: inline-block;
+}
+.Direction a:hover {
+    color: #ffee58;
+}

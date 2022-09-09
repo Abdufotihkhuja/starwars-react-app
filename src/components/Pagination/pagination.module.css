@@ -1,0 +1,20 @@
+.Pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px 20px;
+}
+.Pagination button {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 2px solid lightskyblue;
+    font-size: 24px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Pagination span {
+    display: flex;
+    column-gap: 10px;
+    font-size: 24px;
+}

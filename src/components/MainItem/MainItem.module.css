@@ -1,0 +1,52 @@
+.MainItem {
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 1;
+    width: 31.5%;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    transform: scale(1);
+}
+.MainItem img {
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 5px;
+    position: absolute;
+}
+.MainItem p {
+    z-index: 1;
+    color: white;
+    font-size: 32px;
+    transition: all 0.6 ease-in-out;
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.MainItem:hover p {
+    transform: scale(1.1);
+    color: #ffee58;
+}
+.MainItem:hover img {
+    transform: scale(1.1);
+}
+@media (max-width: 770px) {
+    .MainItem {
+        width: 48%;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    .MainItem {
+        width: 90%;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

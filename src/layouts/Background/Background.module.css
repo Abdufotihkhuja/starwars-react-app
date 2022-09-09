@@ -1,0 +1,69 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+img {
+    vertical-align: top;
+}
+html,
+body {
+    height: 100%;
+}
+html {
+    font-size: 16px; /* по умолчанию */
+}
+body {
+    line-height: 1;
+    font-family: "Roboto";
+    background: black;
+    color: #fff;
+}
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+.Wrapper {
+    min-height: 100%;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0.5) 0%,
+            rgba(0, 0, 0, 1) 100%
+        ),
+        url("../../img/starwars__bg.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
